@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
-		<dc:identifier id="uid">https://standardebooks.org/ebooks/jules-verne/round-the-moon/ward-lock-co</dc:identifier>
+		<dc:identifier id="uid">https://standardebooks.org/ebooks/jules-verne/round-the-moon/louis-mercier</dc:identifier>
 		<dc:date>2021-10-07T20:07:33Z</dc:date>
 		<meta property="dcterms:modified">2021-10-07T20:07:33Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
@@ -47,7 +47,7 @@
 		<meta property="group-position" refines="#collection">7</meta>
 		<meta property="schema:abstract">The giant rocket Columbiad travels to the Moon, engaging in discoveries and misadventures along the way.</meta>
 		<dc:description>
-			&lt;p&gt;This sequel to &lt;a href="https://standardebooks.org/ebooks/jules-verne/from-the-earth-to-the-moon/ward-lock-co"&gt;&lt;i&gt;From the Earth to the Moon&lt;/i&gt;&lt;/a&gt; narrates the eventful journey to the Moon of three passengers—Impey Barbicane, president of the Gun Club, Captain Nicholl, Barbicane’s rival and then collaborator, and Michel Ardan, a French scientist—aboard a hollow cannonball. They orbit the Moon and perform geographical observations, but the projectile fails to land, propelling them instead toward the Earth. They’re rescued at sea and widely celebrated as the first humans to leave Earth.&lt;/p&gt;
+			&lt;p&gt;This sequel to &lt;a href="https://standardebooks.org/ebooks/jules-verne/from-the-earth-to-the-moon/louis-mercier"&gt;&lt;i&gt;From the Earth to the Moon&lt;/i&gt;&lt;/a&gt; narrates the eventful journey to the Moon of three passengers—Impey Barbicane, president of the Gun Club, Captain Nicholl, Barbicane’s rival and then collaborator, and Michel Ardan, a French scientist—aboard a hollow cannonball. They orbit the Moon and perform geographical observations, but the projectile fails to land, propelling them instead toward the Earth. They’re rescued at sea and widely celebrated as the first humans to leave Earth.&lt;/p&gt;
 		</dc:description>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/12901</dc:source>
@@ -57,17 +57,18 @@
 		<link href="https://en.wikipedia.org/wiki/Around_the_Moon" rel="schema:sameAs"/>
 		<meta id="vcs-repository" property="schema:workExample">schema:workExample</meta>
 		<meta property="rdf:type" refines="#vcs-repository">http://schema.org/SoftwareSourceCode</meta>
-		<link href="https://github.com/standardebooks/jules-verne_round-the-moon_ward-lock-co" refines="#vcs-repository" rel="schema:codeRepository"/>
+		<link href="https://github.com/standardebooks/jules-verne_round-the-moon_louis-mercier" refines="#vcs-repository" rel="schema:codeRepository"/>
 		<dc:creator id="author">Jules Verne</dc:creator>
 		<meta property="file-as" refines="#author">Verne, Jules</meta>
 		<meta property="schema:alternateName" refines="#author">Jules Gabriel Verne</meta>
 		<link href="https://en.wikipedia.org/wiki/Jules_Verne" refines="#author" rel="schema:sameAs"/>
 		<link href="https://id.loc.gov/authorities/names/n79064013.html" refines="#author" rel="schema:sameAs"/>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
-		<dc:contributor id="translator">Ward, Lock &amp; Co.</dc:contributor>
-		<meta property="file-as" refines="#translator">Ward, Lock &amp; Co.</meta>
-		<link href="https://en.wikipedia.org/wiki/Ward,_Lock_%26_Co." refines="#translator" rel="schema:sameAs"/>
-		<link href="https://id.loc.gov/authorities/names/n80036611.html" refines="#translator" rel="schema:sameAs"/>
+		<dc:contributor id="translator">Louis Mercier</dc:contributor>
+		<meta property="file-as" refines="#translator">Mercier, Louis</meta>
+		<meta property="schema:alternateName" refines="#translator">Lewis Page Mercier</meta>
+		<link href="https://en.wikipedia.org/wiki/Lewis_Page_Mercier" refines="#translator" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n2010019711.html" refines="#translator" rel="schema:sameAs"/>
 		<meta property="role" refines="#translator" scheme="marc:relators">trl</meta>
 		<dc:contributor id="artist">Aert van der Neer</dc:contributor>
 		<meta property="file-as" refines="#artist">van der Neer, Aert</meta>
